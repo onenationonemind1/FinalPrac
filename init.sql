@@ -2,6 +2,8 @@
 -- 데이터베이스 목록 보기
 SHOW databases;
 
+CREATE DATABASE kdt;
+
 -- 데이터베이스 선택
 USE kdt;
 
@@ -30,7 +32,7 @@ INSERT INTO todo VALUES (null, 'my todo5', 1);
 INSERT INTO todo VALUES (null, 'my todo6', 0);
 
 -- 테이블 데이터 수정 (Update)
-UPDATE todo SET title = '내 할일2' WHERE id = 2;
+UPDATE todo SET title = 'my todo2' WHERE id = 2;
 
 -- 테이블 데이터 삭제 (Delete)
 DELETE FROM todo WHERE id = 3;
